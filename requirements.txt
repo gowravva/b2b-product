@@ -1,0 +1,19 @@
+# Streamlit Dashboard (app.py)
+streamlit>=1.32.0
+requests>=2.31.0
+
+# FastAPI Backend (api.py) — install only on Render
+fastapi>=0.110.0
+uvicorn[standard]>=0.27.0
+python-multipart>=0.0.9
+
+# Shared
+tensorflow>=2.13.0
+numpy>=1.24.0
+Pillow>=10.0.0
+fastapi>=0.110.0
+uvicorn[standard]>=0.27.0
+python-multipart>=0.0.9
+tensorflow>=2.13.0
+numpy>=1.24.0
+Pillow>=10.0.0
