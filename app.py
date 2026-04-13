@@ -205,7 +205,7 @@ def call_fastapi_predict(api_key: str, image_bytes: bytes, filename: str):
             f"{API_BASE_URL}/predict",
             headers={"x-api-key": api_key},
             files={"file": (filename, image_bytes, "image/jpeg")},
-            timeout=30,
+           timeout=120,
         )
         return resp.status_code == 200, resp.json()
     except http_requests.exceptions.ConnectionError:
