@@ -1,8 +1,6 @@
-streamlit
 fastapi
 uvicorn[standard]
-python-multipart
-tensorflow-cpu
+pillow
 numpy
-Pillow
-requests
+tensorflow
+python-multipart
