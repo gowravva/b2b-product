@@ -28,7 +28,8 @@ st.set_page_config(
 
 # ── CONFIG: point this to your deployed FastAPI URL ─────────────
 # After deploying api.py on Render, replace this URL:
-API_BASE_URL = os.getenv("API_BASE_URL", "https://catdog-api.onrender.com")
+API_BASE_URL = os.getenv("API_BASE_URL", "https://b2b-product-cs3h.onrender.com")
+
 
 DB_PATH       = "users.db"
 FREE_LIMIT    = 50
